@@ -3,40 +3,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="/style/style.css">
+    <meta name="description" content="Portfólio de Raphael Dalarme Souza - Desenvolvedor Backend Java e Python">
+    <title>Raphael Dalarme | Desenvolvedor Backend</title>
+    <link rel="stylesheet" href="style/style.css">
 </head>
+
 <body>
-    <header class="cabecalho">
-        <nav class="cabecalho__menu">
-            <a class="cabecalho__menu__link" href="index.html">Home</a>
-            <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
-        </nav>
-    </header>
-    <main class="apresentacao">
-        <section class="apresentacao__conteudo">
-            <h1 class="apresentacao__conteudo__titulo">Eleve seu negócio digital a outro nível <strong class="titulo-destaque">com um Front-end de qualidade!</strong></h1>
-            <p class="apresentacao__conteudo__texto">Olá! Sou Raphael Dalarme Souza, desenvolvedor Front-end com especialidade em <strong>React, HTML e CSS</strong>. Ajudo pequenos negócios e designers a colocarem em prática boas ideias. Vamos conversar?</p>
-            <div class="apresentacao__links">
-                <h2 class="apresentacao__links__subtitulos">Acesse minhas redes:</h2>
-                <a class="apresentacao__links__navegacao" href="https://www.instagram.com/rapha_dalarmejs/?next=%2F">
-                    <img src="/assets/instagram.png">
-                    Instagram
-                </a>
-                <a class="apresentacao__links__navegacao" href="https://github.com/RaphaelDalarme">
-                    <img src="/assets/github.png">
-                    GitHub
-                </a>
-                <a class="apresentacao__links__navegacao" href="https://www.linkedin.com/in/raphael-dalarme-8816aa262/">
-                    <img src="/assets/linkedin.png">
-                    Linkedin
-                </a>
-            </div>
-        </section>
-        <img class="apresentacao__imagem" src="/assets/Prancheta 2.jpg" alt="Foto da Joana Santo programando">
-    </main>
-    <footer class="rodape">
-        <p>Desenvolvido por Raphael Dalarme</p>
-    </footer>
+
+<header class="cabecalho">
+    <nav class="cabecalho__menu">
+        <a class="cabecalho__menu__link" href="index.html">Home</a>
+        <a class="cabecalho__menu__link" href="#projetos">Projetos</a>
+        <a class="cabecalho__menu__link" href="#habilidades">Habilidades</a>
+        <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+        <a class="cabecalho__menu__link" href="#contato">Contato</a>
+    </nav>
+</header>
+
+<main>
+
+<section class="apresentacao">
+    <div class="apresentacao__conteudo">
+        <h1 class="apresentacao__conteudo__titulo">
+            Eleve seu negócio digital a outro nível 
+            <strong class="titulo-destaque">com um Back-end de qualidade!</strong>
+        </h1>
+
+        <p class="apresentacao__conteudo__texto">
+            Olá! Sou Raphael Dalarme Souza, desenvolvedor Back-end com experiência em 
+            <strong>Java, Python e Banco de Dados</strong>. 
+            Desenvolvo sistemas escaláveis, APIs REST e soluções digitais modernas.
+        </p>
+
+        <div class="apresentacao__links">
+            <h2>Acesse minhas redes:</h2>
+
+            <a class="apresentacao__links__navegacao" href="https://github.com/RaphaelDalarme" target="_blank">
+                GitHub
+            </a>
+
+            <a class="apresentacao__links__navegacao" href="https://www.linkedin.com/in/raphael-dalarme-8816aa262/" target="_blank">
+                LinkedIn
+            </a>
+
+            <a class="apresentacao__links__navegacao" href="https://www.instagram.com/rapha_dalarme/" target="_blank">
+                Instagram
+            </a>
+        </div>
+    </div>
+
+    <img class="apresentacao__imagem" src="assets/Prancheta 2.jpg" alt="Foto Raphael Dalarme">
+</section>
+
+
+<section id="projetos" class="secao">
+    <h2>Projetos</h2>
+
+    <div class="cards">
+        <div class="card">
+            <h3>Sistema de API REST em Java</h3>
+            <p>API completa usando Spring Boot com autenticação JWT e banco MySQL.</p>
+        </div>
+
+        <div class="card">
+            <h3>Sistema de automação em Python</h3>
+            <p>Automação de processos e integração com plataformas de e-commerce.</p>
+        </div>
+
+        <div class="card">
+            <h3>Website institucional</h3>
+            <p>Desenvolvimento de site responsivo com HTML, CSS e JavaScript.</p>
+        </div>
+    </div>
+</section>
+
+
+<section id="habilidades" class="secao">
+    <h2>Habilidades</h2>
+    <ul class="habilidades">
+        <li>Java / Spring Boot</li>
+        <li>Python</li>
+        <li>APIs REST</li>
+        <li>MySQL / PostgreSQL</li>
+        <li>Git e GitHub</li>
+        <li>HTML / CSS / JavaScript</li>
+    </ul>
+</section>
+
+
+<section id="contato" class="secao">
+    <h2>Contato</h2>
+    <p>Interessado em trabalhar comigo? Entre em contato:</p>
+    <a class="botao-contato" href="mailto:seuemail@email.com">Enviar e-mail</a>
+</section>
+
+</main>
+
+<footer class="rodape">
+    <p>© 2026 Raphael Dalarme - Todos os direitos reservados</p>
+</footer>
+
 </body>
 </html>
